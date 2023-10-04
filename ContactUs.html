@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Nav</title>
+        <style>
+            *{
+                font-family:serif;
+            }
+            #main-heading{
+                font-weight: bold;
+                text-align: center;
+                font-size: 38px;
+            }
+            ul li{
+                font-size: large;
+            }
+            #main-img{
+                width:300px;
+                height:200px;
+                margin-left:35px;
+                margin-top:10px;
+            }
+            #image-para{
+                padding-left: 40px;
+                font-size: large;
+            }
+            #form-heading{
+                margin-left: 10px;
+            }
+            fieldset{
+                margin: 15px;
+                padding: 15px;
+            }
+            legend{
+                font-size: large;
+            }
+            form label,textarea{
+                padding: 10px;
+                font-weight: bold;
+            }
+            .submit{
+                margin-left: 15px;
+            }
+            #location,address{
+                margin-left: 15px;
+            }
+            #nav{
+                margin-left: 15px;
+                font-size: large;
+            }
+            #footer-para{
+                margin:10px;
+                margin-bottom: 50px;
+            }
+            #copyright{
+                font-size: larger;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="main-heading">Contact Us</h1>
+        <ul>
+            <li><a href="C:\Users\ASUS\OneDrive\Documents\HTMLDocuments\Projects\ProjectOne\Home.html">Home</a></li>
+            <li><a href="C:\Users\ASUS\OneDrive\Documents\HTMLDocuments\Projects\ProjectOne\Home.html#about">About LTS</a></li>
+            <li><a href="C:\Users\ASUS\OneDrive\Documents\HTMLDocuments\Projects\ProjectOne\Home.html#menu">Our Menu</a></li>
+            <li><a href="C:\Users\ASUS\OneDrive\Documents\HTMLDocuments\Projects\ProjectOne\StoreHours.html">Store Hours</a></li>
+        </ul>
+        <img id="main-img"src="https://th.bing.com/th/id/OIP.DEvQE4m6rhvB6EQu_HeYWgHaE8?w=283&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Food On Table Image">
+        <p id="image-para">Little Taco Shop Tacos</p>
+        <h2 id="form-heading">Our Contact Form</h2>
+        <form>
+            <fieldset>
+                <legend>Send Us A Message</legend>
+                <label>Name</label>
+                <input type="text" placeholder="Your Name">
+                <br><br>
+                <label>Email</label>
+                <input type="email" placeholder="Your Mail">
+                <br><br>
+                <label>Your Message:</label>
+                <br>
+                <textarea rows="10" cols="25"></textarea>
+                <br>
+            </fieldset>
+            <input type="submit" value="Submit" class="submit">
+            <input type="reset" value="Reset" class="submit">
+        </form>
+        <h2 id="location">Our Location</h2>
+        <address>
+            555 Taco Templation Lane, Suite T <br>
+            Kansas City, MO 55555-5555 <br>
+            <br>
+            Phone:<a href="phone">&nbsp;555-555-5555</a> 
+        </address>
+        <p><a href="#main-heading" id="nav">Back to Top</a></p>
+        <hr color="lightgrey" size="4px">
+        <p id="footer-para">Copyright <b id="copyright">&#169</b> The Little Taco Shop</p>
+    </body>
+</html>
